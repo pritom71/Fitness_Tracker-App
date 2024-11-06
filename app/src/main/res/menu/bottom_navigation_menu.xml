@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="bottom_navigation">
+
+  <item
+      android:id="@+id/navigation_home"
+      android:title="Home"
+      android:icon="@drawable/home"
+      />
+
+  <item
+      android:id="@+id/navigation_sub"
+      android:title="Daily Routine"
+      android:icon="@drawable/daily_exercise"
+      />
+  <item
+      android:id="@+id/navigation_add"
+      android:title="Add"
+      android:icon="@drawable/add"
+      />
+  <item
+      android:id="@+id/navigation_shorts"
+      android:title="Shorts"
+      android:icon="@drawable/shorts"
+      />
+  <item
+      android:id="@+id/navigation_user"
+      android:title="User"
+      android:icon="@drawable/user"
+      />
+</menu>

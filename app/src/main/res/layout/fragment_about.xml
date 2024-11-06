@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- App Logo or Header Image (Optional) -->
+        <ImageView
+            android:id="@+id/about_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo2"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fitness Tracker (Kotlin)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- App Version -->
+        <TextView
+            android:id="@+id/app_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/app_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In my Android project, I've implemented a variety of key UI components and navigation patterns. Starting with a splash screen for initial app loading, I've integrated a ViewPager for swiping between different fragments or screens, a navigation drawer for accessing app sections via a side menu, and bottom navigation for quick access to primary destinations within the app. Additionally, I've utilized a ListView for displaying uniform data lists and a RecyclerView for efficiently handling varied and large datasets, ensuring smooth scrolling and performance optimizations throughout the app."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Developer Information -->
+        <TextView
+            android:id="@+id/developer_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed by Pritom Barua\nContact me: pritombarua71@gmail.com"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Legal Information or Additional Details (Optional) -->
+        <TextView
+            android:id="@+id/legal_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© 2024 MyApp. All rights reserved."
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
